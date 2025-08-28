@@ -27,7 +27,7 @@ jobs:
              npm install -g newman-reporter-htmlextra
       - name: Run the Postman collection with newman
         run: |
-             newman run 'Inwarranty Flow Collection Copy 2.postman_collection.json'\
+             newman run 'Inwarranty Flow Collection Copy 2.postman_collection.json' \
              -e QA.postman_environment.json \
              -d testDataCreateJob.csv \
              -r cli,htmlextra
