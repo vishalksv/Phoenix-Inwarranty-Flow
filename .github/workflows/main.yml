@@ -54,7 +54,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }} # Not Gmail password, app password created
           subject: Phoenix Inwarranty Flow Test Execution Notification
-          to: ksvishal617@gmail.com
+          to: ksvishal1617@gmail.com
           from: ${{ secrets.EMAIL_USERNAME }}
           body: |
                 Hi,
